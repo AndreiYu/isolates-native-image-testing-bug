@@ -1,0 +1,10 @@
+quarkus:
+  package:
+    type: native
+  native:
+    native-image-xmx: 12g
+#    additional-build-args: "-H:+SpawnIsolates"
+
+property:
+  to:
+    override: 0
